@@ -79,7 +79,8 @@ spotify
 
 
 ##### :white_check_mark: *Expected Output:*
-<img width="898" alt="Screenshot 2024-11-09 at 18 14 04" src="https://github.com/user-attachments/assets/05550abf-d906-42d1-8302-5fe51c997eba">
+<img width="924" alt="Screenshot 2024-11-09 at 20 35 09" src="https://github.com/user-attachments/assets/4599c02e-f0b8-430f-a067-dae92f21f06e">
+
 
 <a name="row+col"></a>
 ### 📂 *How many rows and columns does the dataset contain?*
@@ -91,6 +92,9 @@ num_rows, num_columns = spotify.shape
 # Display the results
 print(f'The DataFrame has {num_rows} rows and {num_columns} columns.')
 ```
+##### :white_check_mark: *Expected Outputs:*
+<img width="354" alt="Screenshot 2024-11-09 at 20 35 50" src="https://github.com/user-attachments/assets/93aaf7a3-4ed4-494c-b824-2d178d4a79c3">
+
 
 <a name="dtype"></a>
 ### 🔢 *The data types of each column?*
@@ -102,6 +106,8 @@ data_type = spotify.dtypes
 
 print("Data Types of Each Column:\n", data_type)
 ```
+##### :white_check_mark: *Expected Outputs:*
+<img width="264" alt="Screenshot 2024-11-09 at 20 36 08" src="https://github.com/user-attachments/assets/9168f5a3-13ee-4a11-b35d-4b9c5d42efba">
 
 ```
 # Check for missing values in each column
@@ -112,7 +118,8 @@ print("Missing Values in Each Column:\n", missing_value)
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="1116" alt="Screenshot 2024-11-09 at 18 32 45" src="https://github.com/user-attachments/assets/0e2beff7-968c-44ef-ba68-af43816dfbde">
+<img width="242" alt="Screenshot 2024-11-09 at 20 36 24" src="https://github.com/user-attachments/assets/5e49fad6-4b14-4322-8f09-fef2956e6050">
+
 
 ---
 <a name="bstats"></a>
@@ -152,8 +159,7 @@ print('Standard Deviation: ', std_streams)
 ```
 
 ##### :white_check_mark: *Expected Output:*
-
-<img width="326" alt="Screenshot 2024-11-09 at 18 41 20" src="https://github.com/user-attachments/assets/06bfa629-6499-4ba3-b937-09507f0fb08e">
+<img width="327" alt="Screenshot 2024-11-09 at 20 37 50" src="https://github.com/user-attachments/assets/52cd63ef-e2c3-4c59-bc49-a5eef15d06de">
 
 
 > [!NOTE] 
@@ -177,6 +183,8 @@ plt.xlabel('Released Year')
 plt.ylabel('# of Tracks') 
 plt.show()
 ```
+##### :white_check_mark: *Expected Outputs:*
+<img width="855" alt="Screenshot 2024-11-09 at 20 38 18" src="https://github.com/user-attachments/assets/18481dbc-a89a-4c68-bd18-f094e2fd5070">
 
 ```python
 # Plotting the distribution of artist_count
@@ -189,8 +197,7 @@ plt.show()
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="912" alt="Screenshot 2024-11-09 at 18 44 56" src="https://github.com/user-attachments/assets/b616da3f-4bf6-41fa-b838-577abea37fe9">
-<img width="869" alt="Screenshot 2024-11-09 at 18 45 19" src="https://github.com/user-attachments/assets/fa570536-b138-4d86-a683-05842ecbf66d">
+<img width="869" alt="Screenshot 2024-11-09 at 20 38 43" src="https://github.com/user-attachments/assets/c0c098c6-3134-4e1b-aa1d-386dc7b099a1">
 
 --- 
 
@@ -222,7 +229,7 @@ top_tracks
  
 
 ##### :white_check_mark: *Expected Output:*
-<img width="894" alt="Screenshot 2024-11-09 at 18 50 50" src="https://github.com/user-attachments/assets/f3dd2ce1-b203-4db3-bde0-16366203403d">
+<img width="883" alt="Screenshot 2024-11-09 at 20 39 17" src="https://github.com/user-attachments/assets/ca67a0a4-ac01-4b61-8012-c64d7c1eefda">
 
 <a name="5f"></a>
 ### 🎖️ *Who are the top 5 most frequent artists based on the number of tracks in the dataset?*
@@ -241,7 +248,7 @@ top_artists
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="235" alt="Screenshot 2024-11-09 at 18 53 07" src="https://github.com/user-attachments/assets/813dc6cc-6e54-4617-97e1-9a78fe65ebfe">
+<img width="229" alt="Screenshot 2024-11-09 at 20 39 39" src="https://github.com/user-attachments/assets/e51710ac-0d62-48e4-957a-a3a7a1a3b0eb">
 
 ---
 <a name="tempo"></a>
@@ -275,9 +282,8 @@ most_releases_count = tracks_per_year.max()
 print(f"The year with the most releases is: {most_releases_year} with {most_releases_count} releases.")
 ```
 
-
 ##### :white_check_mark: *Expected Output:*
-<img width="890" alt="Screenshot 2024-11-09 at 19 12 20" src="https://github.com/user-attachments/assets/250e2de0-549c-402d-88ae-ab5a1d29c1ec">
+<img width="877" alt="Screenshot 2024-11-09 at 20 40 06" src="https://github.com/user-attachments/assets/b4dbae14-ee8b-4758-8b3f-0c02c9ab951d">
 
 
 <a name="patterns"></a>
@@ -318,7 +324,7 @@ print(f"The month with the most releases is: {most_releases_month_name} with {mo
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="890" alt="Screenshot 2024-11-09 at 18 59 52" src="https://github.com/user-attachments/assets/388d6793-b041-402f-a59b-26fbb8ec8ca3">
+<img width="893" alt="Screenshot 2024-11-09 at 20 40 23" src="https://github.com/user-attachments/assets/c7d46043-2967-47df-a373-b1391f630b5e">
 
 ---
 
@@ -356,7 +362,7 @@ plt.show()
 ```
 
 ##### :white_check_mark: *Expected Output:*
-<img width="880" alt="Screenshot 2024-11-09 at 19 07 34" src="https://github.com/user-attachments/assets/4fc6c946-3729-42a7-8a8d-de470c37b56b">
+<img width="934" alt="Screenshot 2024-11-09 at 20 40 52" src="https://github.com/user-attachments/assets/a5550efd-00a1-4a5f-a0c5-0db091300c80">
 
 > [!IMPORTANT]
 > - In the heatmap that was constructed almost every attributes has negative correlation when its related to streams, meaning, characteristics has nothing to do with popularity because of the difference of preferences by other people
@@ -377,8 +383,9 @@ for ax, attr, title in zip(axes, attributes, titles):
 plt.tight_layout()
 plt.show()
 ```
+
 ##### :white_check_mark: *Expected Output:*
-<img width="900" alt="Screenshot 2024-11-09 at 19 17 29" src="https://github.com/user-attachments/assets/a2876078-7354-4390-8ff2-a9dee594dc1f">
+<img width="905" alt="Screenshot 2024-11-09 at 20 41 21" src="https://github.com/user-attachments/assets/dcbbb433-f70d-4da7-bf7b-0875854c4ce9">
 
 <a name="coor2"></a>
 ### ⚛ *Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?*
@@ -410,7 +417,7 @@ print(f"Correlation between Valence and Acousticness: {valence_acousticness_corr
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="887" alt="Screenshot 2024-11-09 at 19 18 20" src="https://github.com/user-attachments/assets/07a3c398-48b2-42ed-81f2-e948db5a2821">
+<img width="892" alt="Screenshot 2024-11-09 at 20 41 42" src="https://github.com/user-attachments/assets/e332c509-2d60-4c2d-a24c-80e81dd6726a">
 
 ---
 
@@ -444,9 +451,8 @@ most_releases_count = track_counts['Number of Tracks'].max()  # Corrected column
 track_counts
 ```
 
-
 ##### :white_check_mark: *Expected Output:*
-<img width="262" alt="Screenshot 2024-11-09 at 19 23 20" src="https://github.com/user-attachments/assets/bd5a1c9d-86d8-4b31-ac0c-c6965a3b09cc">
+<img width="283" alt="Screenshot 2024-11-09 at 20 42 01" src="https://github.com/user-attachments/assets/f9871972-0e65-4d10-9bd2-baaecc936f36">
 
 ---
 
@@ -511,7 +517,7 @@ plt.show()
 
 
 ##### :white_check_mark: *Expected Output:*
-<img width="884" alt="Screenshot 2024-11-09 at 19 26 18" src="https://github.com/user-attachments/assets/c7664a14-8eb1-4b26-a0e5-dafe98b6ed8c">
+<img width="889" alt="Screenshot 2024-11-09 at 20 42 29" src="https://github.com/user-attachments/assets/a748b455-71b7-4d7a-b6f7-cf0a86dd2f39">
 
 <a name="fc"></a>
 ### 📣 *Do certain genres or artists consistently appear in more playlists or charts?*
@@ -553,7 +559,7 @@ plt.show()
 ```
 
 ##### :white_check_mark: *Expected Outputs:*
-<img width="895" alt="Screenshot 2024-11-09 at 19 28 12" src="https://github.com/user-attachments/assets/78997391-0348-476a-84f8-f12823919233">
+<img width="897" alt="Screenshot 2024-11-09 at 20 42 55" src="https://github.com/user-attachments/assets/8155d248-5444-4dd8-a345-7cc4ea389d38">
 
 #### The Top 3 Artists frequently appearing in playlist and charts are The Weeknd, Taylor Swift, and Ed Sheeran. They are known for their Pop, Romance, and RnB songs
 
