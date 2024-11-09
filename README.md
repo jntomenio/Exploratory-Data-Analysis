@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/2e58e75b-32b4-4996-8628-c2e36cccce85
 # :bookmark_tabs: Exploratory Data Analysis
 
 > [!NOTE]
-> :open_book: *Exploratory data analysis (EDA)* - is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.[^1] This repository incorporates Python code to decipher two programming problems titled: **Normalization** and **Divisible By 3**.
+> :open_book: *Exploratory data analysis (EDA)* - is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.[^1] This repository incorporates Python code to decipher Spotify 2023 Dataset.
 
 [^1]: IBM (2020). What Is Exploratory Data Analysis? | IBM. Retrieved from https://www.ibm.com/topics/exploratory-data-analysis
 
@@ -576,5 +576,10 @@ Julian Bernice Kristoffer Tomenio
 
 <a name="ref"></a>
 ## 📚 References
-- https://github.com/eli64s/readme-ai.git
+For readme file, my programming assignments:
+  - Tomenio (2024). GitHub - jntomenio/Programming-Assignment-1. Retrieved from https://github.com/jntomenio/Programming-Assignment-1.git
+  - Tomenio (2024b). GitHub - jntomenio/Programming-Assignment-2: To identify the codes and functions incorporated in the Numpy library and To be able to apply and use the different codes and functions in creating a Python program using a Numpy library. Retrieved from https://github.com/jntomenio/Programming-Assignment-2.git
+  - Tomenio (2024c). GitHub - jntomenio/Programming-Assignment-3. Retrieved from https://github.com/jntomenio/Programming-Assignment-3.git
+  - Toemnio (2024d). GitHub - jntomenio/Programming-Assignment-4. Retrieved November 9, 2024, from GitHub website: https://github.com/jntomenio/Programming-Assignment-4.git
+- 
 
