@@ -1,7 +1,7 @@
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 
 # ⋆⋆✮♪♫ Exploratory Data Analysis 🎧 Spotify 2023 Dataset ♫♪✮⋆⋆
-https://github.com/user-attachments/assets/5cc40d0e-50d6-4145-bb8c-65798c47688b
+https://github.com/user-attachments/assets/2e58e75b-32b4-4996-8628-c2e36cccce85
 
 <!-- ![Build Status](https://travis-ci.org/yourusername/yourproject.svg?branch=main) -->
 
